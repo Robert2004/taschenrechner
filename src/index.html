@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title> Mein Taschenrechner</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="calculator.js"></script>
+  </head>
+  <body>
+    <h1>
+    Taschenrechner
+    </h1>
+     <form action="" onSubmit="return calculate()">
+      <input type="text" name="display" id="display">
+      <table>
+        <tr> <td><input type="button" value="7" onClick="addnumber(7)"></td><td><input type="button" value="8" onClick="addnumber(8)"></td><td><input type="button" value="9" onClick="addnumber(9)"></td><td><input type="button" value="+" onClick="addnumber('+')"></td></tr>
+        <tr><td><input type="button" value="4" onClick="addnumber(4)"></td><td><input type="button" value="5" onClick="addnumber(5)"></td><td><input type="button" value="6" onClick="addnumber(6)"></td><td><input type="button" value="-" onClick="addnumber('-')"></td></tr>
+        <tr><td><input type="button" value="1" onClick="addnumber(1)"></td><td><input type="button" value="2" onClick="addnumber(2)"></td><td><input type="button" value="3" onClick="addnumber(3)"></td><td><input type="button" value="*" onClick="addnumber('*')"></td></tr>
+        <tr><td><input type="reset" value="C"></td><td><input type="button" value="0"></td><td><input type="submit" value="="></td><td><input type="button" value="/" onClick="addnumber('/')"></td></tr>
+      </table>
+    </form>
+  </body>
+</html>

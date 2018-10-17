@@ -1,0 +1,37 @@
+h1{color:red}
+input[type="button"],input[type="submit"],input[type="reset"]{
+  width:30px;
+  height:30px;
+  background-color:#08a0aa;
+  color:#0a32aa;
+  border:solid;
+  text-align:center;
+  line-height:normal;
+  
+} 
+input:hover{
+  background-color:red;
+}
+   
+  input[type="text"]{
+    width:130px;
+    margin-left:2px;
+    border:solid;
+    border-bottom:1px solid #1e5575; 
+    font-size:20px;
+    background-color:#e8e9ef;
+
+}
+  
+  form{
+    background-color:#001516;
+    width:140px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+   
+  }
+ a:hover { color: white; background: blue; }
+
+  
